@@ -1,0 +1,115 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+small {
+    /*设定文字为白色并且居中*/
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: #4a4b4b;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 230px;
+    width: auto;
+}
+
+.show_div {
+    transition: 0.7s;
+    bottom: 2px solid white;
+    border-radius: 30px;
+}
+
+.show_div:hover {
+    font-size: 1.25em;
+}
+
+.div1 {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 10px 10px;
+    border: 2px solid lightblue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 4px 8px #bcbcbc;
+    text-align: center;
+}
+
+@keyframes playwhenin {
+    0% {
+        background-color: #4a4b4b;
+    }
+
+    100% {
+        background-color: #00FFFF;
+    }
+}
+
+
+
+.in_div {
+    border: 2px solid white;
+    border-radius: 30px;
+    animation: playwhenin 6s forwards;
+    -webkit-animation: playwhenin 5s forwards;
+    transition: 0.7s;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.in_div:hover {
+    font-size: 1.25em;
+}
+.now_html {
+    background-color: aqua;
+}
+
+.have_img {
+    max-width: 300px;
+    max-height: 500px;
+
+}
+.bottom>p{
+    font-size: 0.5em;
+}
+/*弹性盒控制*/
+
+.flex_container {
+    display: flex;
+    /*定义弹性盒*/
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: block;
+    position: sticky;
+
+}
+
+.flex_container>div {
+    border: 2px solid;
+    border-radius: 30px;
+    margin: 20px;
+    padding: 20px;
+    color: #FFFFFF;
+    transition: 0.7s;
+}
+
+
+
+.flex_container>div:hover {
+    background-color: #00FFFF;
+    font-size: 1.25em;
+}
