@@ -14,7 +14,7 @@ console.log(url);
 // }
 
 const reader_texts=[
-    "<h1>HH_CNN_EMNIST手写数字识别模型使用教程</h1>"+
+    "<h1>HH_CNN_EMNIST手写字符识别模型使用教程</h1>"+
     "<h3>1.安装python</h3>"+
     "<h3>2.安装pytorch</h3>"+
     "<p><b>CPU版本</b></p>"+
