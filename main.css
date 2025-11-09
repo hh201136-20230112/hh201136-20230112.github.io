@@ -165,6 +165,11 @@ img {
     -webkit-transition: 0.7s;
 }
 
+.title{
+    color: #00F0FF;
+    margin: 10px;
+}
+
 .flex_container>div:hover {
     background-color: #00F0FF;
     font-size: 1.25em;
@@ -174,6 +179,9 @@ img {
     background-image: linear-gradient(50deg,#4a4b4b 65%,#00aaff,#00F0FF 100%);
     background-size: 200%;
     font-size: 1.25em; */
+}
+.flex_container>div:hover>.title{
+    color: #ffffff;
 }
 
 /* .card_div{
@@ -228,3 +236,17 @@ body {
 {
     margin: auto !important;
 } */
+.warning{
+    text-align: center;
+    color: #ffcc00 !important;
+}
+.small{
+    font-size: 0.9em;
+}
+.center_div{
+    margin-right: 30%;
+    margin-left: 30%;
+}
+.center_div>p{
+    text-align: left;
+}
