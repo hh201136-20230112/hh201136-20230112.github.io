@@ -17,11 +17,16 @@ body {
 
 a {
     text-decoration: none;
+    color:#00F0FF;
 }
 
 img {
     height: 230px;
     width: auto;
+}
+
+ul,li{
+    color: white;
 }
 
 .show_div {
@@ -180,7 +185,11 @@ img {
     background-size: 200%;
     font-size: 1.25em; */
 }
-.flex_container>div:hover>.title{
+.flex_container>div:hover>.title,.flex_container>div:hover>a{
+    color: #ffffff;
+}
+
+.card_div:hover a{
     color: #ffffff;
 }
 
