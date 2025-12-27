@@ -12,7 +12,7 @@ console.log(url);
 // {
 
 // }
-const max_index = 5;// 当前可索引到的最大值
+const max_index = 6;// 当前可索引到的最大值
 const text_HTML_obj = document.getElementById("texts");// 获取HTML对象
 
 if (get_file == 0 || get_file > max_index) {
